@@ -14,30 +14,28 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### Project Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In this project we I created a little web shop with a cart. As the consumer you can add items, delete items, and it also displays the total sum amount.
+Here we used and implemented material Ui, reactQuery, typeScript, and StyleComponents for the best possible handling and ux.
 
-### `npm run build`
+### Merchandise Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![react-shopping-cart-project](https://user-images.githubusercontent.com/72527380/166170356-26909eca-42f1-40a5-9ae1-6040b5d4a08f.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We have a react component that makes a fetch request to an API to gather all the data, and then display the 
+items to the UI. The react component renders each item to the UI.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Items in Shopping Cart Page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+![react-shopping-cart-project-2](https://user-images.githubusercontent.com/72527380/166170449-62ec40b8-b7ff-4b49-a116-f42028b04296.png)
+
+The User can add an item to the cart. Also increment the amount of a particular item, as well as decrement. Depending on how many items are in the cart, the total sum is displayed.
 
 ## Learn More
 
